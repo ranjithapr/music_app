@@ -14,65 +14,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <!-- Title for the application. [CHAR LIMIT=12] -->
-     <string name="app_name">Kannada Quiz</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="name">Name</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="toppings">Toppings</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="whipped_cream">Whipped cream</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="chocolate">Chocolate</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="quantity">Quantity</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
-     <string name="initial_quantity_value">2</string>
-
-     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
-     <string name="order">Order</string>
-
-     <!--
-       Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
-       user's name. [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
-
-     <!--
-       Whipped cream topping for the order summary. It will be shown in the format of
-       "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
-
-     <!--
-       Chocolate topping for the order summary. It will be shown in the format of
-       "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
-
-     <!--
-       Quantity of coffee cups for the order summary. It will be shown in the format of
-       "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
-
-     <!--
-       Total price for the order summary. It will be shown in the format of
-       "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_price">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
-
-     <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
-     <string name="thank_you">Thank you!</string>
-
-     <!--
-       Subject line for the order summary email. It will be in the format of
-       "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
-     -->
-     <string name="order_summary_email_subject">Just Java order for <xliff:g id="name" example="Amy">%s</xliff:g></string>
+     <string name="app_name">Gaayana</string>
+     <string name="now_playing_screen">Now Playing Screen</string>
+     <string name="search_screen">Search</string>
+     <string name="store_screen">Store</string>
+     <string name="detail_screen">Details</string>
+     <string name="list_screen">List of Albums</string>
+     <string name="now_playing">Now Playing</string>
+     <string name="list">List</string>
+     <string name="detail">Detail</string>
+     <string name="store">Store</string>
+     <string name="search">Search</string>
+     <string name="now_playing_hurdles">The screen basically shows the list of songs that are playing now. This screen needs to have a list view that shows all the songs as part of the playlist.The touch/click on the list item should take to the details screen/play the song using player.</string>
+     <string name="store_hurdles">This screen should show all the available songs/albums for purchase. We need to be careful on the screen load performance owing to huge data. At the same time every items should reflect the real data.</string>
+     <string name="list_hurdle">This screen shall list the singers/podcasts/albums etc based on a criterion. The list view should be customised for different categories. Owing to large data, we can use recycler view</string>
+     <string name="search_hurdle">This screen provides a search text box and on user clicking it should list down the matching results. Since its a network call we need to ensure we notify user on delay. At the same time page load performance should not be too high</string>
+     <string name="detail_hurdle">In this screen we show the details of song/album/podcast. This would bea simple screen with text views and buttons for actions. Creating an UI with lot of information but still providing aesthetic experience will be chaalenge</string>
 </resources>

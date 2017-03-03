@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/now_playing_screen"
+        android:text="@string/detail_screen"
         android:layout_margin="@dimen/option_horizontal_margin"
         style="@style/HeaderStyle"/>
 
@@ -32,6 +32,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/now_playing"
+            android:textColor="@android:color/black"
+            android:id="@+id/now_playing"/>
 
         <Button
             android:layout_width="0px"
@@ -40,14 +47,6 @@
             android:text="@string/list"
             android:textColor="@android:color/black"
             android:id="@+id/list"/>
-
-        <Button
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/detail"
-            android:textColor="@android:color/black"
-            android:id="@+id/detail"/>
 
         <Button
             android:layout_width="0px"
@@ -70,9 +69,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/now_playing_hurdles"
+        android:text="@string/detail_hurdle"
         style="@style/TextStyle"/>
 
 
-    
+
 </LinearLayout>
